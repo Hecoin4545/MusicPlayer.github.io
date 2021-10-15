@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(90deg , #02AABD ,#00CDAC);
+}
+.header{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header p{
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    color: red;
+}
+.center{
+    height: 350px;
+    margin-top: 30px;
+    display: flex;
+    letter-spacing: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.guitar {
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 40%);
+    color: #141273;
+    font-family: 'Poppins', sans-serif;
+    border: 10px solid #0029ff;
+    margin: 0px 0px 31px 31px;
+    height: 157px;
+    width: 157px;
+    text-align: center;
+    font-size: 122px;
+}
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer p{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: red;
+}
+@media only screen and (max-width: 1338px) {
+.center{
+    height: 446px;
+}
+.header p{
+    letter-spacing: 0px;
+    font-size: 45px;
+   }
+}
+@media only screen and (max-width: 669px) {
+    .center{
+        height: 102vh;
+    }
+    }
+    @media only screen and (max-width: 495px) {
+       .header p {
+        font-size: 38px;
+    }
+        }        
+    @media only screen and (max-width: 450px) {
+        .guitar {
+            margin: 2px 1px 0px 21px;
+            height: 102px;
+            width: 100px;
+            text-align: center;
+            font-size: 83px;
+        }
+        .center{
+            height: 72vh;
+        }
+        .header{
+            align-items:center;
+        }
+
+        .header p {
+            font-size: 26px;
+        }
+        .footer p{
+            font-size: 30px;
+        }
+         }
+         @media only screen and (max-width: 300px) {
+             .guitar{
+                padding: 0px 0px 22px 2px;
+                height: 85px;
+                width: 86px;
+             }
+             .center {
+                height: 74vh;
+            }
+            .footer p{
+                font-size: 33px;
+            }
+         }
